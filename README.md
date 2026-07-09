@@ -1,105 +1,222 @@
-# 📊 Análisis de Ventas Altas con Baja Rentabilidad
+# 📊 Análisis de Ventas con Alta Facturación y Baja Rentabilidad
 
-Este proyecto explora un problema común en negocios:
-
-👉 **Vender mucho no siempre significa ganar dinero.**
-
-A través del análisis de datos, se detectó que existen productos con:
-
-- Altas ventas
-- Alta cantidad vendida  
-- Pero **bajo margen de ganancia** e incluso pérdidas
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 🎯 Objetivo del Proyecto
+# 📖 Descripción
 
-Identificar por qué algunas áreas del negocio venden mucho pero generan poca rentabilidad.
+Las empresas suelen evaluar su desempeño a partir del volumen de ventas. Sin embargo, vender más no siempre significa generar mayores beneficios.
 
-El análisis reveló que:
+Este proyecto desarrolla un análisis de datos para identificar productos con **altas ventas pero baja rentabilidad**, detectando los factores que afectan el margen de ganancia y proporcionando información útil para optimizar la estrategia comercial.
 
-📉 **El descuento aplicado y el costo unitario afectan fuertemente el margen de ganancia.**
-
-Este impacto es especialmente visible en:
-
-- 🏠 Categoría: **Hogar**
-- 🌎 Región: **Sur**
+Mediante técnicas de análisis exploratorio y visualización de datos, se identifican patrones ocultos que permiten comprender por qué determinados productos generan ingresos elevados, pero aportan un beneficio económico reducido.
 
 ---
 
-## 🔍 Variables Analizadas
+# 🎯 Problema de Negocio
 
-Se estudiaron los siguientes indicadores clave:
+En muchos negocios existen productos con un elevado volumen de ventas que, debido a descuentos excesivos o altos costos operativos, generan márgenes muy bajos e incluso pérdidas.
 
-- Ventas
-- Cantidad vendida
-- Margen de ganancia
-- Pérdidas
+Este proyecto busca responder preguntas clave para la toma de decisiones:
 
-Esto permitió detectar patrones ocultos donde el volumen alto estaba ocultando baja rentabilidad.
-
----
-
-## ⚠️ Hallazgo Principal
-
-Los productos de la categoría **Hogar** en la región **Sur** presentan:
-
-- Descuentos elevados
-- Costos unitarios altos
-
-➡️ Resultado:
-
-Margen reducido o negativo, incluso con buenas ventas.
-
-En términos simples:
-
-> Se vende mucho… pero se gana poco.
+- ¿Qué productos venden mucho pero generan poca rentabilidad?
+- ¿Qué categorías presentan menores márgenes de ganancia?
+- ¿Qué regiones concentran las mayores pérdidas?
+- ¿Qué variables impactan directamente en la rentabilidad del negocio?
+- ¿Cómo pueden optimizarse las estrategias comerciales para aumentar el beneficio?
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+# 🎯 Objetivos
 
-- Python  
-- Pandas  
-- Power BI  
-- Git  
-- GitHub  
-
----
-
-## 📈 Visualización (Power BI)
-
-Aquí se puede observar el gráfico utilizado para identificar la baja rentabilidad:
-
-![Visualización Power BI](PowerVisual.png)
+- Analizar el comportamiento de las ventas y la rentabilidad.
+- Detectar productos con alto volumen de ventas y bajo margen.
+- Identificar categorías y regiones con menor rendimiento financiero.
+- Analizar el impacto de descuentos y costos sobre la ganancia.
+- Generar información estratégica para apoyar decisiones comerciales.
 
 ---
 
-## 📁 Estructura del Proyecto
+# 🛠 Tecnologías Utilizadas
 
+| Categoría | Tecnologías |
+|-----------|-------------|
+| Lenguaje | Python |
+| Librerías | Pandas |
+| Visualización | Power BI |
+| Fuente de Datos | CSV · Excel |
+| Control de Versiones | Git · GitHub |
+
+---
+
+# ⚙️ Metodología de Trabajo
+
+## 1. Ingesta de Datos
+
+- Carga del conjunto de datos de ventas.
+- Validación de registros.
+- Verificación de consistencia.
+
+---
+
+## 2. Limpieza y Transformación
+
+- Normalización de datos.
+- Validación de tipos de datos.
+- Preparación de variables para el análisis.
+- Organización del conjunto de datos.
+
+---
+
+## 3. Análisis Exploratorio (EDA)
+
+Se analizaron variables relacionadas con:
+
+- Ventas.
+- Cantidad vendida.
+- Costos.
+- Descuentos.
+- Margen de ganancia.
+- Categorías.
+- Regiones.
+
+---
+
+## 4. Visualización
+
+Se desarrolló un dashboard en Power BI para facilitar la interpretación de los resultados mediante gráficos e indicadores visuales.
+
+---
+
+# 📊 KPIs Analizados
+
+- Ventas Totales.
+- Cantidad de Productos Vendidos.
+- Margen de Ganancia.
+- Rentabilidad por Categoría.
+- Rentabilidad por Región.
+- Productos con Mayor Facturación.
+- Productos con Menor Rentabilidad.
+- Impacto de Descuentos.
+- Impacto del Costo Unitario.
+
+---
+
+# 📈 Principales Hallazgos
+
+El análisis permitió identificar patrones relevantes:
+
+- La categoría **Hogar** concentra productos con altas ventas pero baja rentabilidad.
+- La región **Sur** presenta el menor margen de ganancia.
+- Los descuentos elevados reducen significativamente el beneficio obtenido.
+- El aumento del costo unitario impacta directamente sobre el margen final.
+- Un mayor volumen de ventas no garantiza una mayor rentabilidad.
+
+---
+
+# 💡 Insight Principal
+
+> El volumen de ventas, por sí solo, no representa el verdadero desempeño financiero de un negocio. Analizar simultáneamente ingresos, costos y márgenes permite identificar oportunidades de mejora que permanecen ocultas cuando solo se observa la facturación.
+
+---
+
+# 📈 Dashboard
+
+## Visualización Principal
+
+![Dashboard Power BI](PowerVisual.png)
+
+---
+
+# 📂 Estructura del Proyecto
+
+```text
+Analisis-de-Baja-Rentabilidad/
+
+│── data/
+│   └── proyect.xlsx
+│
+│── retail_ventas_proyecto.csv
+│── analysis.py
+│── info.py
+│── PowerVisual.png
+│── LICENSE
+│── README.md
 ```
-📦 proyecto
- ┣ 📂 data
- ┃ ┗ 📄 proyect.xlsx
- ┣ 📄 retail_ventas_proyecto.csv
- ┣ 📄 analysis.py
- ┣ 📄 info.py
- ┣ 📄 PowerVisual.png
- ┣ 📄 LICENSE
- ┗ 📄 README.md
-```
 
 ---
 
-## 🧠 Conclusión
+# 💼 Valor para el Negocio
 
-Las ventas altas pueden ocultar problemas de rentabilidad.
+Este proyecto proporciona información útil para:
 
-En este caso, el análisis permitió detectar que:
+- Detectar productos poco rentables.
+- Optimizar estrategias de precios y descuentos.
+- Identificar categorías con menor margen de ganancia.
+- Priorizar acciones sobre regiones con bajo rendimiento.
+- Incrementar la rentabilidad mediante decisiones basadas en datos.
 
-✔️ Descuentos excesivos  
-✔️ Costos unitarios elevados  
+---
 
-Estaban reduciendo significativamente el margen de ganancia en una categoría y región específica.
+# 🚀 Cómo Ejecutar el Proyecto
 
-Esto demuestra cómo el análisis de datos permite tomar decisiones más inteligentes que solo mirar el volumen de ventas.
+## Clonar el repositorio
+
+```bash
+git clone https://github.com/Aaronisaias/Analisis-de-Baja-Rentabilidad.git
+```
+
+## Instalar dependencias
+
+```bash
+pip install pandas openpyxl
+```
+
+## Ejecutar el análisis
+
+```bash
+python analysis.py
+```
+
+El proceso realiza automáticamente:
+
+- Carga de datos.
+- Limpieza y transformación.
+- Análisis exploratorio.
+- Generación de métricas.
+- Preparación de datos para Power BI.
+
+---
+
+# 🔮 Próximas Mejoras
+
+- Integración con SQL Server.
+- Automatización completa del proceso ETL.
+- Dashboard interactivo con filtros dinámicos.
+- Modelos predictivos para estimar rentabilidad futura.
+- Incorporación de indicadores financieros avanzados.
+- Automatización de reportes ejecutivos.
+
+---
+
+# 📌 Conclusión
+
+Este proyecto demuestra cómo el análisis de datos permite ir más allá del volumen de ventas para comprender el verdadero rendimiento financiero de un negocio.
+
+La combinación de Python, Pandas y Power BI permitió identificar productos, categorías y regiones con baja rentabilidad, proporcionando información estratégica para optimizar precios, reducir pérdidas y mejorar la toma de decisiones.
+
+---
+
+# 👨‍💻 Autor
+
+**Aaron Isaías Medina**
+
+**Analista de Datos | SQL | Python | ETL | Power BI | Automatización | Business Intelligence**
+
+📧 **Disponible para oportunidades como Analista de Datos Junior**
